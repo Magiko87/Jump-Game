@@ -21,7 +21,7 @@ No external dependencies are required to run the game.
 
 ## Preview
 
-You can see a live preview of the game [here]([https://example.com](https://magiko87.github.io/PortFolio/Progetti/JumpGame/index.html)).
+You can see a live preview of the game [(https://magiko87.github.io/PortFolio/Progetti/JumpGame/index.html))].
 
 ## License
 
