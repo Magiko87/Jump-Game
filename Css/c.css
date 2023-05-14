@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family:sans-serif;
+    background-color: black;
+    
+    
+}
+h1{
+    
+    font-size: 4rem;
+    line-height: 1.5rem;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40%;
+    padding-bottom: 0px;
+    
+}
+.tit{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    
+    
+}
+p{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   
+   
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: white;
+}
+p{
+    z-index: 6;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: -10px;
+    margin-right:400px;
+}
+.conteiner{
+  position: relative;
+   
+}
+h3{
+    color: white;
+    z-index: 6;
+    font-size: 2.6rem;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+.conteiner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.game{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 500px;
+    height: 200px;
+    border-bottom: 3px solid white;
+    margin: auto;
+}
+
+.heroG{
+    
+    width: 100px;
+    height: 100px;
+}
+.hero {
+    position: absolute;
+    top: 116%;
+    left: 5%;
+    transform: translate(-100%, -50%);
+}
+.iron{
+    position: absolute;
+    top: 110%;
+    left: 110%;
+    transform: translate(-100%, -50%);
+
+}
+.ironMan{
+    width: 100px;
+    height: 100px;
+   
+}
+/* Animation */
+
+.animate{
+    animation: jump  0.3s linear ;;
+}
+@keyframes jump{
+    0% {
+        top: 150px;}
+    30% {
+        top: 100px;
+        transform: rotate(45deg);}
+    50% {
+        top: 60px;
+        transform: rotate(90deg);}
+    75% {
+        top: 100px;
+        transform: rotate(180deg);}
+    100% {
+        top: 150px;
+        transform: rotate(360deg);}
+    
+}
+@keyframes move{
+    0%{left: 480px; }
+    100%{left: -20px; }
+
+    }
+
