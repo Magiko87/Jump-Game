@@ -1,5 +1,3 @@
-# Jump-Game
-Play game
 # JumpGame
 
 JumpGame is a simple browser-based jumping game implemented with HTML, CSS, and JavaScript.
